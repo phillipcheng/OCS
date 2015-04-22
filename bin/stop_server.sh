@@ -1,0 +1,1 @@
+ps aux|grep -i ocs | awk {'print $2'}| xargs kill -9
